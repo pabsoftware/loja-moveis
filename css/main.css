@@ -7,11 +7,11 @@ header{
 }
 
 .navbar{
-    background-color: #197005;e;
+    background-color: #135005;e;
 }
 #cabecalho .nav .nav-link.active{
     background-color: white;
-    color: #e15641;
+    color: #135005;
 }
 
 
@@ -24,7 +24,7 @@ header{
 
 
 .navbar-toggler{
-    background-color: #ffeae6;
+    background-color: #135005;
 }
 
 .section-title{
@@ -33,21 +33,21 @@ header{
 
 
 
-#sobre-o-restaurante, #cardapio{
-    background-color: #ffeae6;
+#sobre-loja, #moveis{
+    background-color: #bbd1b6;
 }
 
 .text-colored{
-    color: #0a8e27;
+    color: #135005;
 }
 
 .nav-cardapio .nav-link.active, #fale-conosco button{
-    background-color: #e15641;
+    background-color: #135005;
     color: #fff;
 }
 
 .nav-cardapio .nav-link:hover{
-    color: #e15641;
+    color: #135005;
 }
 
 .social-links li{
@@ -63,5 +63,16 @@ header{
     .carousel-item img{
         height: 280px;
     }
+}
+
+.col-md-3:hover, .col-md-4:hover{
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: #a6d39b;
+    padding: 5px;
+}
+
+.row .col-md-3, .col-md-4{
+    margin-bottom: 20px;
 }
 

@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="./css/main.css">
 
 </head>
-<body>
+
     <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
         <div class="container">
             <h1 class="navbar-brand m-0  fs-2 fw-bold fst-italic">MAFRAN MÓVEIS</h1>
@@ -55,49 +55,358 @@
             </nav>
         </div>
     </header>
-    <section id="sobre-loja" >
-        <div class="carousel slide" data-bs-ride="carousel" id="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="3000">
-                    <img class="w-100" src="./imagens/carousel1.jpg" alt=" Foto de espaço interno do restaurante">
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-loja" class="pb-5" >
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img class="w-100" src="./imagens/carousel1.jpg" alt=" Foto de espaço interno do restaurante">
+                    </div>
+                    
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="w-100" src="./imagens/carousel2.jpg" alt="Duas taças de vinho">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="w-100" src="./imagens/carousel3.jpg" alt="Mesas do restaurante">
+                    </div>
+                </div>
+                <button type="button" class="carousel-control-prev" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button type="button" class="carousel-control-next"  data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button class="active" type="button" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
                 </div>
                 
-                <div class="carousel-item" data-bs-interval="3000">
-                    <img class="w-100" src="./imagens/carousel2.jpg" alt="Duas taças de vinho">
-                </div>
-                <div class="carousel-item" data-bs-interval="3000">
-                    <img class="w-100" src="./imagens/carousel3.jpg" alt="Mesas do restaurante">
+            </div>
+            <div class="pt-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img class="d-block w-100 rounded" src="./imagens/img1.jpg" alt="Foto do espaço interno do restaurante">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="fst-italic fw-bold text-colored">Sobre a loja</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, voluptatibus rerum. Illo non nulla fuga assumenda? Facilis culpa repudiandae animi saepe dolor perferendis assumenda necessitatibus? Molestias vitae eveniet sed tempore!</p>
+                            
+                        </div>
+                    </div>
                 </div>
             </div>
-            <button type="button" class="carousel-control-prev" data-bs-target="#carousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-            </button>
-            <button type="button" class="carousel-control-next"  data-bs-target="#carousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon"></span>
-            </button>
-            <div class="carousel-indicators">
-                <button class="active" type="button" data-bs-target="#carousel" data-bs-slide-to="0"></button>
-                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
-                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
-            </div>
-            
-        </div>
-        <div class="pt-5">
+        </section>
+        <section id="ofertas" class="pt-5 pb-5">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-5">
-                        <img class="d-block w-100 rounded" src="./imagens/img1.jpg" alt="Foto do espaço interno do restaurante">
+                    <h2 class=" fst-italic fw-bold text-colored  text-center">Produtos em promoção </h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img class="d-block w-100 rounded mb-2" src="./imagens/mesa.jpg" alt="">
+                        <h3 class=" text-colored fs-4">
+                            <i class="bi bi-house-fill"></i>
+                            Mesa com 4 cadeiras
+                        </h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In blanditiis delectus ducimus ab quis voluptatibus reiciendis maxime expedita consequuntur. Nesciunt illo eligendi sequi eius tenetur deleniti dolore perspiciatis facilis soluta?</p>
+                        <p>
+                            <h3 class="fw-bold fst-italic text-colored">R$ 930,00</h3>
+                        </p>
+                            <button class="btn btn-success w-100">Fazer reserva</button>
                     </div>
-                    <div class="col-md-7 mt-3 mt-md-0">
-                        <h2 class="fst-italic fw-bold text-colored">Sobre a loja</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, voluptatibus rerum. Illo non nulla fuga assumenda? Facilis culpa repudiandae animi saepe dolor perferendis assumenda necessitatibus? Molestias vitae eveniet sed tempore!</p>
-                        
+                    <div class="col-md-4">
+                        <img class="d-block w-100 rounded mb-2" src="./imagens/sofa.jpg" alt="">
+                        <h3 class=" text-colored fs-4"> 
+                            <i class="bi bi-house-fill"></i>
+                            Conjunto sofá
+                        </h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In blanditiis delectus ducimus ab quis voluptatibus reiciendis maxime expedita consequuntur. Nesciunt illo eligendi sequi eius tenetur deleniti dolore perspiciatis facilis soluta?</p>
+                        <p>
+                            <h3 class="fw-bold fst-italic text-colored">R$ 930,00</h3>
+                        </p>
+                            <button class="btn btn-success w-100">Fazer reserva</button>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="d-block w-100 rounded mb-2" src="./imagens/guarda roupa.png" alt="">
+                        <h3 class=" text-colored fs-4"> 
+                            <i class="bi bi-house-fill"></i>
+                            Guardarroupas
+                        </h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In blanditiis delectus ducimus ab quis voluptatibus reiciendis maxime expedita consequuntur. Nesciunt illo eligendi sequi eius tenetur deleniti dolore perspiciatis facilis soluta?</p>
+                        <p>
+                            <h3 class="fw-bold fst-italic text-colored">R$ 930,00</h3>
+                        </p>
+                            <button class="btn btn-success w-100">Fazer reserva</button>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+        <section class=" pt-5 pb-5" id="moveis">
+            <div class="container">
+                <div class="row mb-4">
+                    <h2 class=" text-center fw-bold fst-italic text-colored">Nossos Produtos</h2>
 
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-cardapio">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#mesa" class="fw-bold text-start nav-link text-colored active">Mesas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#sofa" class="fwbold text-start nav-link text-colored ">Sofás</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#cama" class="fwbold text-start nav-link text-colored ">Camas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#cosinha" class="fwbold text-start nav-link text-colored ">Cosinha</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#cadeiras" class="fwbold text-start nav-link text-colored ">Cadeiras</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-8">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="mesa">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/mesa.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Mesa com 4 cadeiras</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, et.
+                                        </p>
+                                        <p>
+                                            <h3 class="fw-bold fst-italic text-colored">R$ 930,00</h3>
+                                        </p>
+                                            <button class="btn btn-success w-100">Fazer reserva</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/mesa.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Mesa com 4 cadeiras</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, et.
+                                        </p>
+                                        <p>
+                                            <h3 class="fw-bold fst-italic text-colored">R$ 930,00</h3>
+                                        </p>
+                                            <button class="btn btn-success w-100">Fazer reserva</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/mesa.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Mesa com 4 cadeiras</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, et.
+                                        </p>
+                                        <p>
+                                            <h3 class="fw-bold fst-italic text-colored">R$ 930,00</h3>
+                                        </p>
+                                            <button class="btn btn-success w-100">Fazer reserva</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/mesa.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Mesa com 4 cadeiras</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, et.
+                                        </p>
+                                        <p>
+                                            <h3 class="fw-bold fst-italic text-colored">R$ 930,00</h3>
+                                        </p>
+                                            <button class="btn btn-success w-100">Fazer reserva</button>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="sofa">
+                                <div class="row">
+                                    <div class="col-md-3 mb-5">
+                                        <img class="d-block w-100" src="./imagens/sofa.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Sofá</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, et.
+                                        </p>
+                                        <p>
+                                            <h3 class="fw-bold fst-italic text-colored">R$ 930,00</h3>
+                                        </p>
+                                            <button class="btn btn-success w-100">Fazer reserva</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/sofa.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Sofá</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, et.
+                                        </p>
+                                        <p>
+                                            <h3 class="fw-bold fst-italic text-colored">R$ 930,00</h3>
+                                        </p>
+                                            <button class="btn btn-success w-100">Fazer reserva</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/sofa.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Sofá</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, et.
+                                        </p>
+                                        <p>
+                                            <h3 class="fw-bold fst-italic text-colored">R$ 930,00</h3>
+                                        </p>
+                                            <button class="btn btn-success w-100">Fazer reserva</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/sofa.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Sofá</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, et.
+                                        </p>
+                                        <p>
+                                            <h3 class="fw-bold fst-italic text-colored">R$ 930,00</h3>
+                                        </p>
+                                            <button class="btn btn-success w-100">Fazer reserva</button>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="entradas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/cardapio/entradas/entrada.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Nome da entrada</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, et.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/cardapio/entradas/entrada.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Nome da entrada</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, et.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/cardapio/entradas/entrada.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Nome da entrada</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, et.
+                                        </p>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="pratos-principais">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/cardapio/pratos/pizza.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Pizza</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, et.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/cardapio/pratos/salmao.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Salmão</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, et.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/cardapio/pratos/pizza.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Pizza</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, et.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/cardapio/pratos/salmao.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Salmão</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, et.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="sobremesas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/cardapio/sobremesas/bolo.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Bolo de chocolate</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, et.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/cardapio/sobremesas/cupcake.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Cupcake</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, et.
+                                        </p>
+                                    </div>
+                                    
+                                </div>
+                            </div
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center">Fale conosco</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="form-group mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="form-group mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu email</label>
+                                <input type="text" id="email" class="form-control">
+                            </div>
+                            <div class="form-group mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="form-group mb-3">
+                                <label for="msg" class="form-label fw-bold text-colored" >Sua mensagem</label>
+                                <textarea type="text" id="msg" class="form-control"></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row"> 
+                            <h3 class=" fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes Sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored ms-1 me-1"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class=" fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereços
+                            </h3>
+                            <p>
+                                Rua Presidente Kemmedy, Centro, Matões-MA, cep 65645-000
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
