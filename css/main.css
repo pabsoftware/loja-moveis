@@ -40,6 +40,10 @@ header{
 .text-colored{
     color: #135005;
 }
+.text-colored-2{
+    color: rgb(214, 210, 210);
+    text-decoration: line-through
+}
 
 .nav-cardapio .nav-link.active, #fale-conosco button{
     background-color: #135005;
